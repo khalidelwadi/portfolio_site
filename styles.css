@@ -73,6 +73,22 @@ header {
     margin-top:100px;
 }
 
+.main-aboutme {
+    text-align: center;
+    font-size: 14px;
+}
+.main-aboutme h1{
+    margin: 20px 0;
+}
+.main-aboutme-p{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.main-aboutme-p p{
+    padding: 10px 10px;
+}
 /* --------------------------------------- */
 footer {
     height: auto;
