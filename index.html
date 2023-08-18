@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
     <title>Khalid El Wadi</title>
 </head>
 <body>
     <header>
         <div class="links">
-            <a href="/">Home</a>
-            <a href="#">About me</a>
-            <a href="#">Elvator Pitch</a>
-            <a href="#">Portoflio</a>
+            <a id="home-btn"href="/">Home</a>
+            <a id="aboutme-btn" href="#">About me</a>
+            <a id="elv-btn" href="#">Elvator Pitch</a>
+            <a id="portfolio-btn" href="#">Portfolio</a>
         </div>
     </header>
     <main>
-        <section class="main-info" style="display: block;">
+        <section id="home" class="main-info" style="display: block;">
             <h1 class="main-text main-hello">Hello</h1>
             <h2 class="main-text main-id">My name is Khalid Elwadi</h2>
-            <p class="main-text main-role">" I'm ALX solution architect ☁️ on the making . . .
+            <p class="main-text main-role">" I'm ALX's AWS solution architect ☁️ on the making . . .
              or at least<br> I will be once I finish the program! "</p>
             <p class="main-text main-button"><a href="#">Know Me More</a></p>
-            </section>
-        <section class="main-aboutme" style="display: none;">
+        </section>
+        <section id="about_me" class="main-aboutme" style="display: none;">
             <h1>About Me</h1>
             <div class="main-aboutme-p">
                 <p>I am a computer network technician with a degree in computer networks and system administration I have 6 months of experience as a
@@ -33,7 +34,13 @@
                 <p>I look forward to gain valuable experience in aws cloud computing through the alx AWS Solutions Architect program and discover new job opportunities in the cloud computing
                     space</p>
             </div>
-            
+        </section>
+        <section id="portfolio" class="third-section main-info" style="display: none;">
+            <h1 class="portfolio">My Projects</h1>
+            <div class="my-projects links">
+                <a target="_blank" href="https://drive.google.com/file/d/1itfmsqs0HPpIuAar4VpLMVgN5iG5dxLO/view?usp=sharing">Slide Deck</a>
+                <a target="_blank" href="https://drive.google.com/file/d/1xeMJbv70mVFQRjbDalJ9EhRvIYLleJLO/view">Video</a>
+            </div>
         </section>
     </main>
     <footer>
