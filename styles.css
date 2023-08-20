@@ -44,6 +44,19 @@ header {
     margin: 10px 0;
     
 }
+.my-projects h2 {
+    margin-top: 50px;
+}
+.my-projects iframe {
+   
+    display: block;
+    margin: auto;
+}
+.my-projects h2, .my-projects a {
+    color: black;
+    display: block;
+    text-align: center;
+}
 .main-hello {
     
     font-weight: bold;
@@ -79,13 +92,13 @@ header {
 }
 .main-aboutme h1{
     font-size: 40px;
-    margin-top : 30px;
+    margin-top : 20px;
     margin-bottom: 30px;
 }
 .main-aboutme-p{
     width: 50%;
     margin: auto;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .main-aboutme-p p{
@@ -99,6 +112,12 @@ header {
 
 .third-section {
     padding-bottom: 150px;
+}
+
+#elevator-pitch iframe{
+    padding: 50px 0;
+    display: block;
+   margin: auto;
 }
 /* --------------------------------------- */
 footer {
